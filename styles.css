@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+
+  header {
+    background-color: transparent;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #fff;
+  }
+  
+  .menu a {
+    padding: 1rem;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  #menu-toggle:checked + .menu-icon + .menu {
+    display: flex;
+  }
+  
+
+  .inicio {
+    background-color: #ffc1dc;
+    text-align: center;
+    padding: 2rem 1rem;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .titulo-inicio {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0631ff;
+    text-shadow: 1px 1px white;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+  }
+  
+  .foto-ovalada img {
+    width: 70%;
+    border-radius: 50% 50% 45% 45% / 55% 55% 40% 40%;
+    border: 5px solid white;
+    margin-top: 1rem;
+  }
+  
+
+  .decoraciones .circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .decor.rosa {
+    background-color: pink;
+    bottom: 120px;
+    left: 20px;
+  }
+  
+  .decor.negro {
+    background-color: black;
+    bottom: 80px;
+    right: 20px;
+  }
+  
+  .burbuja-hola {
+    background-color: #fff176;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0631ff;
+    line-height: 1.1;
+  }
+  
+  .descripcion-hola {
+    margin: 1rem auto;
+    max-width: 250px;
+    font-size: 0.9rem;
+    color: #000;
+  }
+  
+  /* NOSOTROS */
+  .nosotros {
+    background-color: #ffe84f;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .nosotros h2 {
+    font-size: 2rem;
+    color: #0631ff;
+    font-weight: bold;
+  }
+  
+  .nosotros p {
+    margin: 1rem auto;
+    max-width: 350px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .firma {
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .img-nosotros {
+    width: 90%;
+    border-radius: 12px;
+    margin-top: 1rem;
+    border: 4px solid white;
+  }
+  
+
+  .chat-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+
+  @media (min-width: 768px) {
+    .titulo-inicio {
+      font-size: 3.5rem;
+    }
+  
+    .foto-ovalada img {
+      width: 40%;
+    }
+  
+    .burbuja-hola {
+      font-size: 2.2rem;
+    }
+  
+    .descripcion-hola {
+      font-size: 1.1rem;
+    }
+  
+    .img-nosotros {
+      width: 60%;
+    }
+  
+    .nosotros p {
+      font-size: 1.2rem;
+    }
+  }
