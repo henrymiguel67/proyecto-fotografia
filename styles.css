@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
 body {
     margin: 0;
     font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -179,3 +187,116 @@ body {
       font-size: 1.2rem;
     }
   }
+
+
+  body {
+    background: #fefefe;
+    padding: 1rem;
+  }
+  
+  .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    border: 2px solid palegreen;
+  }
+  
+  section h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    border: 2px solid palegreen;
+  }
+  
+  .grid-galeria img {
+    width: 80%;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
+  .contenedor-precios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+  
+  .bloque {
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .titulo {
+    background-color: #f984a1;
+    grid-column: span 2;
+    font-size: 1.3rem;
+    color: #ff3b3f;
+  }
+  
+  .horas {
+    background-color: #f8a1d1;
+    grid-column: span 2;
+  }
+  
+  .horas input {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  
+  .toggle {
+    background-color: #fce96a;
+    color: #d2222d;
+  }
+  
+  .digital {
+    background-color: #3e61ff;
+    grid-column: span 1;
+  }
+  
+  .cabina {
+    background-color: #fdee87;
+    position: relative;
+  }
+  
+  .chat {
+    background: #ffce00;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .contenedor {
+      grid-template-columns: 1fr;
+    }
+  
+    .contenedor-precios {
+      grid-template-columns: 1fr;
+    }
+  
+    .titulo {
+      font-size: 1rem;
+    }
+  
+    .grid-galeria {
+      grid-template-columns: 1fr;
+    }
+  
+    .grid-galeria img {
+      height: 200px;
+    }
+  }
+  
