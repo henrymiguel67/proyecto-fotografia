@@ -1,99 +1,152 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fotografía de Bodas</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capturamos los Sentimientos</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="principal">
+    <div class="contenedor">
+      
+     
+      <header class="site-header">
+        <div class="header-main">
+          <h1>CAPTURAMOS LOS SENTIMIENTOS</h1>
+          <div class="header-photo">
+            <img src="./img/primera_foto.jpg" alt="Pareja en boda">
+          </div>
+        </div>
+      </header>
+      
+    
+      <section class="descripcion">
+        <div class="contenido-descripcion">
+          <div class="decoracion">
+            <img class="img-circulo" src="./img/hero_circle-new-01.png" alt="Decoración circular">
+            <img class="img-cir-lado1" src="./img/about-shape.svg" alt="Decoración lateral">
+            <img class="img-cir-lado2" src="./img/about-shape.svg" alt="Decoración lateral">
+          </div>
+          <h2>HOLA, AQUÍ</h2>
+          <img class="ovalo" src="./img/oval.svg" alt="Figura oval">
+          <p>
+            <strong>
+              Somos catadores de pasteles profesionales, pregoneros de bodas y amantes del amor. En resumen, somos grandes fanáticos del matrimonio. El matrimonio es un compromiso muy especial y tu boda marca el testimonio y la celebración de este vínculo. Estamos muy emocionados por este increíble próximo capítulo de tu vida. ¡Lo recomendamos de todo corazón!
+            </strong>
+          </p>
+          <h3>TUS NUPCIALISTA</h3>
+          <div class="mini-decor">
+            <img class="img-argollas" src="./img/about-ring.svg" alt="Argollas">
+            <img class="img-dib-lado-argolla" src="./img/about-star.svg" alt="Detalle decorativo">
+          </div>
+          <div class="cuadro">
+            <img class="foto-cuadro" src="./img/5fc5c74bb7097299fbc5a3dd_RETO-OutputVideo-20191018212828-pos.jpg" alt="Detalle del evento">
+          </div>
+        </div>
+      </section>
+      
 
- 
-  <header>
-    <div class="logo"></div>
-    <input type="checkbox" id="menu-toggle" />
-    <label for="menu-toggle" class="menu-icon">&#9776;</label>
-    <nav class="menu">
-      <a href="#inicio">Inicio</a>
-      <a href="#nosotros">Nosotros</a>
-    </nav>
-  </header>
+      <section class="galeria">
+        <h2>Galería</h2>
+        <div class="galeria-container">
+          <img src="./img/pareja-en-roca.jpeg" alt="Pareja en zona rocosa">
+          <img src="./img/pareja-en-un-puente.jpeg" alt="Pareja en puente">
+          <img src="./img/lateral-galeria-mobile.jpg" alt="Detalle lateral">
+          <img src="./img/mujer-pared.jpeg" alt="Mujer en la pared">
+          <img src="./img/pareja-cielo.jpeg" alt="Pareja en el cielo">
+        </div>
+      </section>
+      
+  
+      <section class="precios">
+        <div class="contenido-precios">
+          <h2>CONSTRUYE TU PROPIO PAQUETE</h2>
+          <div class="slider-horas">
+            <h3>HORAS TOTALES</h3>
+            <div class="numero-cir">
+              <input id="slider" type="range" min="0" max="100" value="3">
+              <div id="sliderDisplay">3</div>
+            </div>
+          </div>
+          <div class="opciones">
+            <div class="opcion session">
+              <h3>SESIÓN DE COMPROMISO</h3>
+              <p>NO</p>
+            </div>
+            <div class="opcion video">
+              <h3>VIDEO DE LA CEREMONIA</h3>
+              <p>NO</p>
+            </div>
+            <div class="opcion digital">
+              <h3>SOLO DIGITAL</h3>
+              <img class="icono-digital" src="./img/piggybank.svg" alt="Alcancía">
+            </div>
+            <div class="opcion cabina">
+              <h3>CABINA DE FOTOS</h3>
+              <p>HORAS</p>  
+            </div>
+          </div>
+          <div class="total">
+            <h3>TOTAL</h3>
+            <p>$1,938</p>
+          </div>
+          <div class="mapa">
+            <h3>LUGAR</h3>
+            <p>Seleccione una región</p>
+            <img class="img-mapa" src="./img/map.svg" alt="Mapa">
+          </div>
+        </div>
+      </section>
+      
 
-
-  <section id="inicio" class="seccion inicio">
-    <h1 class="titulo-inicio">CAPTURAMOS<br>LOS<br>SENTIMIENTOS</h1>
-    <div class="foto-ovalada">
-      <img src="imagenes/5fcb37527c071f03f345b017_1070677-R1-E001-p-3200.jpeg" alt="Pareja de boda" />
-    </div>
-    <div class="decoraciones">
-      <span class="circulo decor rosa"></span>
-      <span class="circulo decor negro"></span>
-    </div>
-    <div class="burbuja-hola">
-      <p>HOLA<br>AQUÍ</p>
-    </div>
-    <div class="descripcion-hola">
-      <p>Somos catadores de pasteles profesionales, pregoneros de bodas y amantes del amor.</p>
-    </div>
-    <button class="chat-btn">CHAT</button>
-  </section>
-
- 
-  <section id="nosotros" class="seccion nosotros">
-    <h2>HOLA AQUÍ</h2>
-    <p>
-      Somos catadores de pasteles profesionales, pregoneros de bodas y amantes del amor. En resumen,
-      somos grandes fanáticos del matrimonio. El matrimonio es un compromiso muy especial y tu boda
-      marca el testimonio y la celebración de este vínculo. Estamos muy emocionados por este increíble
-      próximo capítulo de tu vida. ¡Lo recomendamos de todo corazón!
-    </p>
-    <p class="firma">TUS HUPELCITAS</p>
-    <img src="imagenes/5fcb3794a8a1625058bb6108_1070426-R1-E014-p-500.jpeg" alt="Pareja feliz" class="img-nosotros" />
-    <button class="chat-btn">CHAT</button>
-  </section>
-
-  <section class="galeria">
-    <h2>Sección Galería</h2>
-    <div class="grid-galeria">
-      <img src="imagenes/5fcb373a5db9af85f972c0db_3028367-R1-010-3A-p-500.jpeg" alt="Boda 1" />
-      <img src="imagenes/5fcb3794a8a1625058bb6108_1070426-R1-E014-p-2600.jpeg" alt="Boda 2" />
-      <img src="imagenes/5fcb386f1ed39a9b0faf38af_1070427-R1-E008-p-1080.jpeg" alt="Boda 3" />
-      <img src="imagenes/5fcb37527c071f03f345b017_1070677-R1-E001-p-2000.jpeg" alt="Boda 4" />
-      <img src="imagenes/5fcb3b8b8b448eec3c49d39d_6016105-R1-E015-p-500.jpeg" alt="Boda 5" />
-    </div>
-  </section>
-
-  <!-- Precios -->
-  <section class="precios">
-    <h2>Sección Precios</h2>
-    <div class="contenedor-precios">
-      <div class="bloque titulo">
-        <h3>CONSTRUYE TU PROPIO PAQUETE</h3>
+      <footer class="site-footer">
+        <div class="collage-img">
+          <img class="collage1" src="./img/drinks.svg" alt="Copas">
+          <img class="collage2" src="./img/rayo-box-icon.svg" alt="Rayo">
+          <img class="collage3" src="./img/loop-blue.svg" alt="Aro azul">
+          <img class="collage4" src="./img/loop-wide-orange.svg" alt="Aro naranja">
+          <img class="collage5" src="./img/heart-colorido.svg" alt="Corazón">
+          <img class="collage6" src="./img/music-pistas.svg" alt="Música">
+          <img class="collage7" src="./img/hand-disco.svg" alt="Disco">
+          <img class="collage8" src="./img/rings-yellow-blue.svg" alt="Anillos">
+          <img class="collage9" src="./img/pareja-couple.svg" alt="Pareja">
+          <img class="collage10" src="./img/azul-cara-smile.svg" alt="Cara azul">
+          <img class="collage11" src="./img/yay.svg" alt="Yay">
+          <img class="collage12" src="./img/stars-azules.svg" alt="Estrellas">
+        </div>
+        <div class="consulta">
+          <h2>CONSULTA TU FECHA</h2>
+          <input type="date" placeholder="seleciona una fecha"> 
+          <p>¡Revisamos el calendario para tu GRAN DIA!</p>
+        </div>
+      </footer>
+      
+   
+      <div class="redes-sociales">
+        <div class="anuncio">
+          <h2>SIGUE NUESTRAS REDES <br> Y CONTACTANOS</h2>
+        </div>
+        <div class="politica-privacidad">
+          <h2>POLITICAS DE PRIVACIDAD</h2>
+        </div>
+        <div class="red-social facebook">
+          <img src="./img/facebook.svg" alt="Facebook">
+        </div>
+        <div class="red-social instagram">
+          <img src="./img/instagram.svg" alt="Instagram">
+        </div>
+        <div class="red-social telegram">
+          <img src="./img/telegraml.svg" alt="Telegram">
+        </div>
       </div>
-      <div class="bloque horas">
-        <label>HORAS TOTALES <span>❓</span></label>
-        <input type="range" min="1" max="10" value="3" />
-      </div>
-      <div class="bloque toggle">
-        <p>SESIÓN DE COMPROMISO <span>❓</span></p>
-        <div class="switch">NO</div>
-      </div>
-      <div class="bloque toggle">
-        <p>VIDEO DE LA CEREMONIA <span>❓</span></p>
-        <div class="switch">NO</div>
-      </div>
-      <div class="bloque digital">
-        <p>SOLO DIGITAL <span>❓</span></p>
-      </div>
-      <div class="bloque cabina">
-        <p>CABINA DE FOTOS <span>❓</span></p>
-        <button class="chat">CHAT</button>
-      </div>
+      
+   
+      <div class="circulo-chat"><strong>CHAT</strong></div>
+      
     </div>
-  </section>
-</main>
+  </div>
+  
 </body>
 </html>
 
-</body>
-</html>
