@@ -1,128 +1,305 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Capturamos los Sentimientos</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="principal">
-    <div class="contenedor">
-      
-     
-      <header class="site-header">
-        <div class="header-main">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturamos los Sentimientos</title>
+    <link rel="shortcut icon" href="./svgs/slider de la barra-01.svg"
+      type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="section-inicio" id="inicio">
+        <header class="section-header">
+          <nav class="navegacion">
+            <a href="#nosotros">nosotros</a>
+            <a href="#galeria">galería</a>
+            <a href="#precio">precio</a>
+            <a href="#contacto">contacto</a>
+          </nav>
+
+          <input type="checkbox" id="boton-menu">
+          <label for="boton-menu" class="etiqueta-menu">
+            <div class="border-etiqueta-menu">
+
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </label>
+
+          <nav class="menu">
+            <a href="#nosotros">Nosotros</a>
+            <a href="#galeria">Galería</a>
+            <a href="#precios">precios</a>
+            <a href="#contacto">Contacto</a>
+          </nav>
+        </header>
+        <main class="main">
           <h1>CAPTURAMOS LOS SENTIMIENTOS</h1>
-          <div class="header-photo">
-            <img src="./img/primera_foto.jpg" alt="Pareja en boda">
+
+          <div class="bloque-derecha">
+            <img src="./imgs/ellasolaconrosas.jpg"
+              alt="muchacha casándose o preparada para su boda">
           </div>
-        </div>
-      </header>
-      
-    
-      <section class="descripcion">
-        <div class="contenido-descripcion">
+
+          <div class="main-foto">
+            <div class="container-logo-responsive">
+              <img src="./imgs/primera_foto.jpg" alt="Pareja en boda">
+              <img id="main-logo" src="./imgs/hero_circle-new-01.png"
+                alt="Decoración circular">
+            </div>
+          </div>
+
+          <div class="bloque-izquierda">
+            <img src="./imgs/pareja-en-un-puente.jpeg"
+              alt="Pareja con pasteles">
+          </div>
+
+          <div class="bloque-logo">
+            <img src="./imgs/hero_circle-new-01.png" alt="">
+          </div>
+        </main>
+      </section>
+
+      <section class="nosotros" id="nosotros">
+        <div class="contenido-nosotros">
           <div class="decoracion">
-            <img class="img-circulo" src="./img/hero_circle-new-01.png" alt="Decoración circular">
-            <img class="img-cir-lado1" src="./img/about-shape.svg" alt="Decoración lateral">
-            <img class="img-cir-lado2" src="./img/about-shape.svg" alt="Decoración lateral">
+            <span>
+              <img class="img-cir-lado1" src="./svgs/about-shape.svg"
+                alt="Decoración lateral">
+              <b>Para los amantes del amor</b>
+            </span>
+            <span>
+              <img class="img-cir-lado2" src="./svgs/about-shape.svg"
+                alt="Decoración lateral">
+              <b>Con +3 años de experiencia</b>
+            </span>
           </div>
-          <h2>HOLA, AQUÍ</h2>
-          <img class="ovalo" src="./img/oval.svg" alt="Figura oval">
-          <p>
-            <strong>
-              Somos catadores de pasteles profesionales, pregoneros de bodas y amantes del amor. En resumen, somos grandes fanáticos del matrimonio. El matrimonio es un compromiso muy especial y tu boda marca el testimonio y la celebración de este vínculo. Estamos muy emocionados por este increíble próximo capítulo de tu vida. ¡Lo recomendamos de todo corazón!
-            </strong>
-          </p>
-          <h3>TUS NUPCIALISTA</h3>
-          <div class="mini-decor">
-            <img class="img-argollas" src="./img/about-ring.svg" alt="Argollas">
-            <img class="img-dib-lado-argolla" src="./img/about-star.svg" alt="Detalle decorativo">
-          </div>
-          <div class="cuadro">
-            <img class="foto-cuadro" src="./img/5fc5c74bb7097299fbc5a3dd_RETO-OutputVideo-20191018212828-pos.jpg" alt="Detalle del evento">
-          </div>
+          <article class="division-nosotros">
+            <div class="informacion-nosotros">
+              <h2>HOLA, colombia</h2>
+              <div class="texto-nosotros">
+                <p>
+                  Somos catadores de pasteles profesionales, pregoneros de bodas
+                  y
+                  amantes del amor. En resumen, somos grandes
+                  fanáticos del matrimonio.</p>
+                <p>
+                  El matrimonio es un compromiso
+                  muy especial y tu boda marca el testimonio y la
+                  celebración de este vínculo. Estamos muy emocionados por este
+                  increíble próximo capítulo de tu vida. ¡Lo
+                  recomendamos de todo corazón!
+                </p>
+              </div>
+              <div class="mini-decor">
+                <h3>TUS NUPCIALISTA</h4>
+                  <span>
+                    <img class="img-argollas" src="./svgs/about-ring.svg"
+                      alt="Argollas">
+                    <img class="img-dib-lado-argolla"
+                      src="./svgs/about-star.svg" alt="Detalle decorativo">
+                  </span>
+
+              </div>
+            </div>
+            <div class="cuadro">
+              <div class="foto-cuadro">
+                <img
+                  src="./imgs/5fc5c74bb7097299fbc5a3dd_RETO-OutputVideo-20191018212828-pos.jpg"
+                  alt="Detalle del evento">
+              </div>
+            </div>
+          </article>
+
+
+
+
         </div>
       </section>
-      
 
-      <section class="galeria">
+      <section class="galeria" id="galeria">
         <h2>Galería</h2>
         <div class="galeria-container">
-          <img src="./img/pareja-en-roca.jpeg" alt="Pareja en zona rocosa">
-          <img src="./img/pareja-en-un-puente.jpeg" alt="Pareja en puente">
-          <img src="./img/lateral-galeria-mobile.jpg" alt="Detalle lateral">
-          <img src="./img/mujer-pared.jpeg" alt="Mujer en la pared">
-          <img src="./img/pareja-cielo.jpeg" alt="Pareja en el cielo">
+          <article class="galeria-item" title="Eventos Corporativos">
+            <img src="./imgs/eventos-corportativos.jpg"
+              alt="Pareja en zona rocosa">
+            <div class="galeria-text-item">
+              <strong>Eventos Corporativos Profesionales</strong>
+            </div>
+          </article>
+          <article class="galeria-item" title="Reuniones Familiares">
+            <img src="./imgs/reuniones-familiares.jpg" alt="Pareja en puente">
+            <div class="galeria-text-item">
+              <strong>Reuniones Familiares Memorables</strong>
+            </div>
+          </article>
+          <article class="galeria-item" title="Bautizos">
+            <img src="./imgs/bautizos.jpg" alt="Detalle lateral">
+            <div class="galeria-text-item">
+              <strong>
+                Bautizos y Ceremonias Religiosas
+              </strong>
+            </div>
+          </article>
+          <article class="galeria-item" title="Bodas">
+            <img src="./imgs/bodas.jpg" alt="Mujer en la pared">
+            <div class="galeria-text-item">
+              <strong>
+                Bodas y Celebraciones Nupciales
+              </strong>
+            </div>
+          </article>
+          <article class="galeria-item" title="Fiestas de 15 Años">
+            <img src="./imgs/fiestas-de-15.jpg" alt="Pareja en el cielo">
+            <div class="galeria-text-item">
+              <strong>
+                Fiestas de Quinceañeras Especiales
+              </strong>
+            </div>
+          </article>
+          <article class="galeria-item" title="Conferencias">
+            <img src="./imgs/conferencias.jpg" alt="Pareja en el cielo">
+            <div class="galeria-text-item">
+              <strong>
+                Conferencias y Eventos Empresariales
+              </strong>
+            </div>
+          </article>
+          <article class="galeria-item" title="Conciertos">
+            <img src="./imgs/concienrtos.jpg" alt="Pareja en el cielo">
+            <div class="galeria-text-item">
+              <strong>
+                Conciertos y Eventos Musicales
+              </strong>
+            </div>
+          </article>
+          <article class="galeria-item" title="Ferias de Arte">
+            <img src="./imgs/ferias-de-arte.jpg" alt="Pareja en el cielo">
+            <div class="galeria-text-item">
+              <strong>
+                Ferias de Arte y Exposiciones
+              </strong>
+            </div>
+          </article>
+          <article class="galeria-item" title="Ceremonias Escolares">
+            <img src="./imgs/ceremonias-escolares.jpg" alt="Pareja en el cielo">
+            <div class="galeria-text-item">
+              <strong>
+                Ceremonias y Graduaciones Escolares
+              </strong>
+            </div>
+          </article>
+          <article class="galeria-item" title="Fotografía de Productos">
+            <img src="./imgs/productos.jpg" alt="Pareja en el cielo">
+            <div class="galeria-text-item">
+              <strong>
+                Fotografía Profesional de Productos
+              </strong>
+            </div>
+          </article>
         </div>
       </section>
-      
-  
-      <section class="precios">
-        <div class="contenido-precios">
-          <h2>CONSTRUYE TU PROPIO PAQUETE</h2>
-          <div class="slider-horas">
-            <h3>HORAS TOTALES</h3>
-            <div class="numero-cir">
-              <input id="slider" type="range" min="0" max="100" value="3">
-              <div id="sliderDisplay">3</div>
+
+
+      <section class="precios" id="precio">
+        <div class="container-precio">
+          <div class="construye-paquete">
+            <h2>CONSTRUYE TU PROPIO PAQUETE</h2>
+            <div class="horas-totales">
+              <label for="horas-slider">HORAS TOTALES</label>
+              <div class="horas-slider-container">
+                <input type="range" id="horas-slider" name="horas" min="1"
+                  max="10" value="3">
+                <span class="horas-valor">3</span>
+              </div>
             </div>
           </div>
-          <div class="opciones">
-            <div class="opcion session">
-              <h3>SESIÓN DE COMPROMISO</h3>
-              <p>NO</p>
+          <div class="sesion-compromiso">
+            <h3>SESIÓN DE COMPROMISO</h3>
+            <div class="toggle-switch">
+              <input type="checkbox" id="compromiso-toggle"
+                class="toggle-input">
+              <label for="compromiso-toggle" class="toggle-label">
+                <span class="toggle-text">NO</span>
+              </label>
             </div>
-            <div class="opcion video">
-              <h3>VIDEO DE LA CEREMONIA</h3>
-              <p>NO</p>
+          </div>
+          <div class="video-ceremonia">
+            <h3>VIDEO DE LA CEREMONIA</h3>
+            <div class="toggle-switch">
+              <input type="checkbox" id="ceremonia-toggle" class="toggle-input">
+              <label for="ceremonia-toggle" class="toggle-label">
+                <span class="toggle-text">NO</span>
+              </label>
             </div>
-            <div class="opcion digital">
-              <h3>SOLO DIGITAL</h3>
-              <img class="icono-digital" src="./img/piggybank.svg" alt="Alcancía">
+          </div>
+          <div class="solo-digital">
+            <h3>SOLO DIGITAL</h3>
+            <img src="./svgs/hand-disco.svg" alt="Cámara Digital"
+              class="icono-opcion">
+          </div>
+          <div class="film-digital">
+            <h3>FILM + DIGITAL</h3>
+            <img src="./svgs/camera.svg" alt="Cámara Film" class="icono-opcion">
+          </div>
+          <div class="cabina-fotos">
+            <h3>CABINA DE FOTOS</h3>
+            <div class="horas-cabina">
+              <label for="horas-cabina-slider">HORAS</label>
+              <div class="horas-cabina-slider-container">
+                <input type="range" id="horas-cabina-slider" name="horas-cabina"
+                  min="1" max="5" value="2">
+                <span class="horas-cabina-valor">2</span>
+              </div>
             </div>
-            <div class="opcion cabina">
-              <h3>CABINA DE FOTOS</h3>
-              <p>HORAS</p>  
-            </div>
+          </div>
+          <div class="lugar">
+            <h3>LUGAR</h3>
+            <select name="region" id="region-select">
+              <option value="">Selecciona una región</option>
+            </select>
+            <img src="./svgs/map.svg" alt="Mapa USA" class="mapa-usa">
           </div>
           <div class="total">
             <h3>TOTAL</h3>
             <p>$1,938</p>
           </div>
-          <div class="mapa">
-            <h3>LUGAR</h3>
-            <p>Seleccione una región</p>
-            <img class="img-mapa" src="./img/map.svg" alt="Mapa">
-          </div>
+
         </div>
       </section>
-      
+
 
       <footer class="site-footer">
         <div class="collage-img">
-          <img class="collage1" src="./img/drinks.svg" alt="Copas">
-          <img class="collage2" src="./img/rayo-box-icon.svg" alt="Rayo">
-          <img class="collage3" src="./img/loop-blue.svg" alt="Aro azul">
-          <img class="collage4" src="./img/loop-wide-orange.svg" alt="Aro naranja">
-          <img class="collage5" src="./img/heart-colorido.svg" alt="Corazón">
-          <img class="collage6" src="./img/music-pistas.svg" alt="Música">
-          <img class="collage7" src="./img/hand-disco.svg" alt="Disco">
-          <img class="collage8" src="./img/rings-yellow-blue.svg" alt="Anillos">
-          <img class="collage9" src="./img/pareja-couple.svg" alt="Pareja">
-          <img class="collage10" src="./img/azul-cara-smile.svg" alt="Cara azul">
-          <img class="collage11" src="./img/yay.svg" alt="Yay">
-          <img class="collage12" src="./img/stars-azules.svg" alt="Estrellas">
+          <img class="collage1" srcsvgs/img/drinks.svg" alt="Copas">
+          <img class="collage2" src="./svgs/rayo-box-icon.svg" alt="Rayo">
+          <img class="collage3" src="./svgs/loop-blue.svg" alt="Aro azul">
+          <img class="collage4" src="./svgs/loop-wide-orange.svg"
+            alt="Aro naranja">
+          <img class="collage5" src="./svgs/heart-colorido.svg" alt="Corazón">
+          <img class="collage6" src="./svgs/music-pistas.svg" alt="Música">
+          <img class="collage7" src="./svgs/hand-disco.svg" alt="Disco">
+          <img class="collage8" src="./svgs/rings-yellow-blue.svg"
+            alt="Anillos">
+          <img class="collage9" src="./svgs/pareja-couple.svg" alt="Pareja">
+          <img class="collage10" src="./svgs/azul-cara-smile.svg"
+            alt="Cara azul">
+          <img class="collage11" src="./svgs/yay.svg" alt="Yay">
+          <img class="collage12" src="./svgs/stars-azules.svg" alt="Estrellas">
         </div>
         <div class="consulta">
           <h2>CONSULTA TU FECHA</h2>
-          <input type="date" placeholder="seleciona una fecha"> 
           <p>¡Revisamos el calendario para tu GRAN DIA!</p>
         </div>
       </footer>
-      
-   
+
+
       <div class="redes-sociales">
         <div class="anuncio">
           <h2>SIGUE NUESTRAS REDES <br> Y CONTACTANOS</h2>
@@ -131,22 +308,20 @@
           <h2>POLITICAS DE PRIVACIDAD</h2>
         </div>
         <div class="red-social facebook">
-          <img src="./img/facebook.svg" alt="Facebook">
+          <img src="./svgs/img/facebook.svg" alt="Facebook">
         </div>
         <div class="red-social instagram">
-          <img src="./img/instagram.svg" alt="Instagram">
+          <img src="./svgs/img/instagram.svg" alt="Instagram">
         </div>
         <div class="red-social telegram">
-          <img src="./img/telegraml.svg" alt="Telegram">
+          <img src="./svgs/img/telegraml.svg" alt="Telegram">
         </div>
       </div>
-      
-   
-      <div class="circulo-chat"><strong>CHAT</strong></div>
-      
-    </div>
-  </div>
-  
-</body>
-</html>
 
+      <div class="circulo-chat"><strong>CHAT</strong></div>
+    </div>
+
+
+  </body>
+
+</html>

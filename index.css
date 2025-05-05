@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+}
+
+@font-face {
+  font-family: "Gulfs";
+  font-weight: 200;
+  src: url(./fonts/GulfsDisplay-Normal.woff);
+}
+
+@font-face {
+  font-family: 'Anybody';
+  src: url(./fonts/Anybody-Medium.otf);
+}
